@@ -1,0 +1,73 @@
+.profile {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.profile__box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position:absolute;
+    top: 140px;
+    padding-left: 20px;
+}
+.profile__box__name {
+    font-size: 30px;
+    font-weight: 700;
+}
+.profile__box__message {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    color: darkgray;
+    margin-top: 10px;
+}
+.profile__imgbox {
+    display: flex;
+    position: absolute;
+    top: 110px;
+    left: 350px;
+}
+.profile__imgbox__img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.friendlist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position:relative;
+    top: 200px;
+    padding-left: 20px;
+}
+.friendlist__title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.friendlist__friend {
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+}
+.friend-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.friendlist__friend__name {
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    top: 24px;
+}
+.friendlist__friend__message {
+    position: absolute;
+    left: 120px;
+    top: 60px;
+    color: darkgray;
+    font-size: 20px;
+}

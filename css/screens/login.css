@@ -1,3 +1,18 @@
+.welcome-header {
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-header__title {
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+.welcome-header__text {
+    width: 50%;
+    opacity: 0.7;
+}
 
 #login-form {
     display: flex;
@@ -12,35 +27,38 @@
     border-radius: 50px;
 }
 #login-form input:is([type="text"]) {
-    color: var(--kakao);
+    color: var(--linegreen);
     font-family: 'Bree Serif', serif;
     padding-left: 25px;
 }
 #login-form input:first-child::placeholder {
-    color: var(--kakao);
+    color: var(--linegreen);
     font-family: 'Bree Serif', serif;
 }
 #login-form input:is([type="password"]) {
-    color: var(--kakao);
+    color: var(--linegreen);
     font-family: 'Bree Serif', serif;
     padding-left: 25px;
+    margin-bottom: 40px;
 }
 #login-form input:nth-child(2)::placeholder {
-    color: var(--kakao);
+    color: var(--linegreen);
     font-family: 'Bree Serif', serif;
 }
 #login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgb(125, 125, 125);
+    border-bottom: 3px solid rgb(125, 125, 125);
     transition: border-color 300ms ease-in-out;
 }
 #login-form input:focus {
-    border-color: var(--kakao);
+    border-color: var(--linegreen);
 }
 
 #login-form input[type="submit"] {
-    background-color: var(--kakao);
-    color: var(--yellow);
+    background-color: var(--linegreen);
+    color: white;
     cursor: pointer;
+    width: 50%;
+    align-self: center;
 }
 #login-form a {
     color: inherit;

@@ -1,0 +1,26 @@
+.screen-hdr {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 25px;
+    position: relative;
+}
+.screen-hdr__icons {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    font-size: 24px;
+    position: relative;
+    align-items: center;
+    left: 300px;
+    margin-top: 10px;
+}
+.screen-hdr__icons__new {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: var(--linegreen);
+    position: absolute;
+    left: 58px;
+    bottom: 20px;
+}

@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 @import "reset.css";
-@import "status-bar.css";
 @import "variables.css";
-@import "welcome-header.css";
-@import "login-form.css";
+
+/* componnents */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-hdr.css";
+@import "components/searchbar.css";
+
+/* screens */
+@import "screens/login.css";
+@import "screens/home.css";
+@import "screens/chat.css";
 
 body {
+    display: block;
     font-family: 'Bree Serif', serif;
-    background-color: var(--yellow);
+    background-color: #FFFFFF;
+    overflow-x: hidden;
 }
+

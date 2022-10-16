@@ -1,0 +1,34 @@
+.srcbar {
+    display: flex;
+    width: 90%;
+    height: 30px;
+    background-color: gainsboro;
+    position: relative;
+    top: 250px;
+    left: 15px;
+    border-radius: 5px;
+}
+.srcbar__bar {
+    position:relative;
+    border: none;
+    background-color: inherit;
+}
+.srcbar__bar::placeholder {
+    font-style: 'Bree Serif', serif;
+    font-size: 16px;
+}
+.srcbar__bar:focus {
+    outline: none;
+    background-color: gainsboro;
+    font-style: 'Bree Serif', serif;
+}
+.srcbar__bar {
+    outline: none;
+    position: relative;
+    left: 30px;
+}
+.srcbar__icon {
+    position:relative;
+    top: 6px;
+    right: 156px;
+}
