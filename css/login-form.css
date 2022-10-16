@@ -1,0 +1,48 @@
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+#login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+}
+#login-form input:is([type="text"]) {
+    color: var(--kakao);
+    font-family: 'Bree Serif', serif;
+    padding-left: 25px;
+}
+#login-form input:first-child::placeholder {
+    color: var(--kakao);
+    font-family: 'Bree Serif', serif;
+}
+#login-form input:is([type="password"]) {
+    color: var(--kakao);
+    font-family: 'Bree Serif', serif;
+    padding-left: 25px;
+}
+#login-form input:nth-child(2)::placeholder {
+    color: var(--kakao);
+    font-family: 'Bree Serif', serif;
+}
+#login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgb(125, 125, 125);
+    transition: border-color 300ms ease-in-out;
+}
+#login-form input:focus {
+    border-color: var(--kakao);
+}
+
+#login-form input[type="submit"] {
+    background-color: var(--kakao);
+    color: var(--yellow);
+    cursor: pointer;
+}
+#login-form a {
+    color: inherit;
+    text-align: center;
+}
