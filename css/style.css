@@ -21,5 +21,6 @@ body {
     font-family: 'Bree Serif', serif;
     background-color: #FFFFFF;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
