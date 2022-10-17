@@ -1,6 +1,6 @@
 .srcbar {
     display: flex;
-    width: 90%;
+    width: 1800px;
     height: 30px;
     background-color: gainsboro;
     position: relative;
@@ -11,7 +11,7 @@
 .srcbar__bar {
     position:relative;
     border: none;
-    width: 90%;
+    width: 1800px;
     background-color: inherit;
 }
 .srcbar__bar::placeholder {
