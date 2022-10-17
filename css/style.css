@@ -12,6 +12,9 @@
 @import "screens/login.css";
 @import "screens/home.css";
 @import "screens/chat.css";
+@import "screens/find.css";
+@import "screens/call.css";
+@import "screens/chatroom.css";
 
 body {
     display: block;

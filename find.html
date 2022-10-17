@@ -21,23 +21,36 @@
          </div>
        </div>
 
-       <div class="srchbar">
-        <input class="srchbar__bar" type="text" placeholder="search" />
-        <span class="srchbar__icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </span>
+       <main class="mainscrn">
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-qrcode"></i>
+                <span>QR code</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-address-book"></i>
+                <span>Add by Contracts</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-id-card"></i>
+                <span>Add by ID</span></div>
+            <div class="find-icons__icon">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+       </main>
+
+       <div class="reconmmended-friends">
+         <h6 class="reconmmended-friends__title">Reconmmended friends</h6>
+         <span class="reconmmended-friends__txt">You have no recommended friends.</span>
+         <span class="reconmmended-friends__txt">Ha-ha!</span>
        </div>
        
        <header class="screen-hdr">
-         <div class="screen-hdr__icons">
+         <div class="screen-hdr__icons findhdr">
             <span>
-                <i class="fa-regular fa-comment-dots"></i>
-            </span>
-            <span>
-                <i class="fa-solid fa-minus"></i>
-            </span>
-            <span>
-                <i class="fa-solid fa-caret-down"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
             </span>
             <span>
                 <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -45,18 +58,16 @@
          </div>
        </header>
 
-       <div class="Chatlist">
-        <a href="chatroom.html">
-        <span class="Chatlist__title">Chats</span>
-        <div class="Chatlist__friend">
-            <img class="Chatlist-img" src="https://cdn.stardust.co.jp/wp-content/uploads/2022/05/hondatsubasa_sen01-436x550.jpg" />
-            <span class="Chatlist__friend__name">Honda Tsubasa</span>
-            <span class="Chatlist__friend__message">Nanomachines, son!</span>
-            <span class="Chatlist__friend__time">15:57</span>
-            <span class="Chatlist__friend__notification">1</span>
-        </div>
-        </a>
-        </div>
+       <div class="open-chat">
+         <div class="open-chat__hdr">
+            <h4>Open Chat</h4>
+            <span>more openchat</span>
+         </div>
+       </div>
+
+       <div class="open-chat-txt">
+        <span>You are banned from Open chat</span>
+       </div>
 
 
 
@@ -68,13 +79,13 @@
                 </a>
             </li>
             <li class="nav__list__btn">
-                <a class="nav__list__btn__link" href="#">
+                <a class="nav__list__btn__link" href="chat.html">
                     <span class="nav__list__btn__link__notification">1</span>
-                    <i class="fa-regular fa-comment-dots fa-2x"></i>
+                    <i class="fa-regular fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class="nav__list__btn">
-                <a class="nav__list__btn__link" href="find.html">
+                <a class="nav__list__btn__link" href="#">
                     <i class="fa-solid fa-magnifying-glass fa-2x"></i>
                 </a>
             </li>

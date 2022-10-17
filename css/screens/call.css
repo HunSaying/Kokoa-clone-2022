@@ -1,0 +1,29 @@
+.addressbook {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    left: 420px;
+}
+.addressbook__txt {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40px;
+    justify-content: center;
+    text-align: center;
+    right: 530px;
+}
+.call_icons {
+    display: block;
+    position: relative;
+    bottom: 200px;
+    left: 380px;
+}
+.call_icons__icon {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.call_icons__icon:nth-child(2) {
+    color: var(--linegreen);
+}
