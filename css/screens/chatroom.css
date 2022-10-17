@@ -110,6 +110,7 @@
     border: 1px solid var(--linegreen);
     border-radius: 25px;
     box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
 }
 
 .reply__column:last-child > i,
@@ -136,4 +137,19 @@
 .reply__column button:focus,
 .reply__column button:active {
     outline: none;
+}
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-face-smile,
+.reply:focus-within button {
+    transition: opacity 300ms ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-face-smile,
+.reply:focus-within button {
+    opacity: 0;
+}
+.reply:focus-within input {
+    width: 98vw;
+    transform: translateX(-13%);
 }
